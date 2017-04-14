@@ -1,0 +1,29 @@
+Nama :Putri Mutyaningsih
+NPM : 14-111-75
+Kelas : TIF RP14 A
+
+
+
+Penjelasan Polymorphism
+
+Polymorphism adalah bahasa Yunani yang berarti "Memiliki banyak bentuk"
+Polymorphism juga dapat diartikan sebagai suatu kemampuan object untuk boleh mengambil beberapa bentuk yang beda agar
+	tidak terjadi duplikasi object 
+	
+dua object tersebut mempunyai antarmuka yang identik namun mempunyai sifat yang beda
+Dalam pemrograma Polymorphism dapat diartikan sebagai sebuah modul dengan nama sama tapi memiliki sifat yang beda sehingga listing code implementasiannya juga beda
+	
+Kondisi yang harus dipenuhi supaya polimorfisme dapat diimplementasikan adalah :
+· Method yang dipanggil harus melalui variabel dari basis class atau superclass,
+· Method yang dipanggil harus juga menjadi method dari basis class,
+· Signature method harus sama baik pada superclass maupun subclass,
+· Method access attribute pada subclass tidak boleh lebih terbatas dari basis class.
+
+
+dari contoh yang sudah ada dilampiran Polymorphism terjadi pada "Void mendukung", dimana void tersebut ada pada class induk dan class turunannya
+	void mendukung memiliki nama yang sama pada tiap class,tapi bentuk dari tiap class berbeda,
+
+dalam contoh codding tersebut memenuhi syarat terbentuknya Polymorphism,karena :
+1. Memiliki nama yang sama
+2. Memiliki sifat yang berbeda
+dan pada void main dipanggil void mendukung yang terdapat pada semua class untuk ditampilkan, sehingga dapat kita lihat perbedaan dala "mendukung" dari masing-masing class
